@@ -1,0 +1,80 @@
+.bounce-enter-active {
+    animation: bounce-in .4s;
+}
+.bounce-leave-active {
+    animation: bounce-in .4s reverse;
+}
+@keyframes bounce-in {
+    0% {
+        margin-top: -50px;
+    }
+    100% {
+        margin-top: 0;
+    }
+}
+
+
+.current-left-in {
+    animation: current-left-in .3s;
+}
+@keyframes current-left-in {
+    0% {
+        margin-left: 0;
+    }
+    100% {
+        margin-left: -100vw;
+    }
+}
+
+.current-left-out {
+    animation: current-left-out .2s;
+}
+@keyframes current-left-out {
+    0% {
+        margin-left: -100vw;
+        margin-right: 100vw;
+    }
+    100% {
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
+
+.current-right-in {
+    animation: current-right-in .2s;
+}
+@keyframes current-right-in {
+    0% {
+        margin-left: 100vw;
+        margin-right: -100vw;
+    }
+    100% {
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
+
+.current-right-out {
+    animation: current-right-out .3s;
+}
+@keyframes current-right-out {
+    0% {
+        margin-left: 0;
+    }
+    100% {
+        margin-left: 100vw;
+    }
+}
+
+
+.current-up-in {
+    animation: current-up-in .4s;
+}
+@keyframes current-up-in {
+    0% {
+        margin-top: 100vh;
+    }
+    100% {
+        margin-top: 0;
+    }
+}
